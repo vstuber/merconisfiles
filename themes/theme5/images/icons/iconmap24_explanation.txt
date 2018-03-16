@@ -1,0 +1,44 @@
+### Content explanation for iconmap24 ###
+### Project "theme5 (merconis)" ###
+
+x-a, y-a: close window (icon for light background)
+x-b, y-a: plus
+x-c, y-a: minus
+x-d, y-a: close window (icon for dark background)
+x-e, y-a: info icon (e.g. used for the coupon field in checkout)
+x-f, y-a: delete icon (e.g. used to delete a coupon or cart item in checkout)
+x-g, y-a: add icon (e.g. used to add a coupon in checkout)
+x-h, y-a: edit icon (in this case used to activate the changeQuantityMode for a cart item)
+x-i, y-a: OK icon (used to submit a quantity change in the cart)
+x-j, y-a: close icon (for light background)
+x-k, y-a: edit icon (in this case used to open the customer data form)
+x-l, y-a: element toggler closed
+x-m, y-a: element toggler open
+
+### Coordinates ###
+a	0
+b	-24
+c	-48
+d	-72
+e	-96
+f	-120
+g	-144
+h	-168
+i	-192
+j	-216
+k	-240
+l	-264
+m	-288
+n	-312
+o	-336
+p	-360
+q	-384
+r	-408
+s	-432
+t	-456
+u	-480
+v	-504
+w	-528
+x	-552
+y	-576
+z	-600

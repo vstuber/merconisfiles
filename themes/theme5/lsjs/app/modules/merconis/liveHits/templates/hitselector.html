@@ -1,0 +1,46 @@
+<div
+	data-lsjs-element="hitSelectorOutside"
+	class="merconisHitSelectorOutside<?= (this.__models.configuration.data.liveHitsNoAutoPosition ? ' noAutoPosition' : '') =?>"
+	<?
+		if (!this.__models.configuration.data.liveHitsNoAutoPosition) {
+			?>
+			style="position: fixed; z-index: 100000; width: <?= this.__view.el_input.getSize().x =?>px;"
+			<?
+		}
+	?>
+>
+	<div data-lsjs-element="hitSelector" class="merconisHitSelector<?= (this.__models.configuration.data.liveHitsNoAutoPosition ? ' noAutoPosition' : '') =?>">
+		<?
+		Array.each(this.__models.hits.data, function(obj_hitValue, obj_hitKey) {
+			?>
+			<div data-lsjs-element="hit" data-hit-key="<?= obj_hitKey =?>" class="hit<?= (obj_hitValue._class !== undefined && obj_hitValue._class ? ' ' + obj_hitValue._class.join(' ') : '') =?>">
+				<?
+				if (obj_hitValue._mainImage !== undefined && obj_hitValue._mainImage) {
+					?>
+					<div class="_mainImage">
+						<img src="<?= obj_hitValue._mainImage =?>" alt="">
+					</div>
+					<?
+					Object.each(obj_hitValue, function(var_value, str_fieldName) {
+						if (
+								str_fieldName === '_class'
+							||	str_fieldName === '_mainImage'
+							||	str_fieldName === '_linkToProduct'
+						) {
+							return;
+						}
+						?>
+						<div class="<?= str_fieldName =?>">
+							<?= var_value =?>
+						</div>
+						<?
+					});
+				}
+				?>
+				<div class="clearFloat"></div>
+			</div>
+			<?
+		}.bind(this));
+		?>
+	</div>
+</div>

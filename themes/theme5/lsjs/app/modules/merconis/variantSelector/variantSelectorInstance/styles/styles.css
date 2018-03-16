@@ -1,0 +1,50 @@
+.attributeBox {
+	border: 1px solid #000000;
+	margin-bottom: 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+}
+
+.attributeBox > h2 {
+	margin: 0;
+	background-color: #444444;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 14px;
+}
+
+.attributeBox .value {
+	padding: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+.attributeBox .value:not(:last-child) {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.attributeBox .value[data-lsjs-class*="selected"] {
+	background-color: #FFFF00;
+	cursor: default;
+}
+
+.attributeBox .value:not([data-lsjs-class*="possible"]) {
+	color: #CCCCCC;
+}
+
+.attributeBox .closeButton {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    padding: 2px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    font-weight: bold;
+	cursor: pointer;
+	display: none;
+}
+
+.attributeBox .value[data-lsjs-class*="selected"] .closeButton {
+	display: block;
+}

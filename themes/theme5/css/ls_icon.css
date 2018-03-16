@@ -1,0 +1,445 @@
+.ls_icon {
+	width: 96px;
+	height: 96px;
+	display: inline-block;
+	background-color: #FF0000;
+	border: none;
+	vertical-align: middle;
+}
+
+.ls_icon.medium {
+	width: 24px !important;
+	height: 24px !important;
+	background-image: url("../images/icons/iconmap24.png") !important;
+	background-size: unset !important;
+	background-color: transparent;
+}
+
+.ls_icon.medium.x-a {
+	background-position-x: 0px;
+}
+
+.ls_icon.medium.x-b {
+	background-position-x: -24px;
+}
+
+.ls_icon.medium.x-c {
+	background-position-x: -48px;
+}
+
+.ls_icon.medium.x-d {
+	background-position-x: -72px;
+}
+
+.ls_icon.medium.x-e {
+	background-position-x: -96px;
+}
+
+.ls_icon.medium.x-f {
+	background-position-x: -120px;
+}
+
+.ls_icon.medium.x-g {
+	background-position-x: -144px;
+}
+
+.ls_icon.medium.x-h {
+	background-position-x: -168px;
+}
+
+.ls_icon.medium.x-i {
+	background-position-x: -192px;
+}
+
+.ls_icon.medium.x-j {
+	background-position-x: -216px;
+}
+
+.ls_icon.medium.x-k {
+	background-position-x: -240px;
+}
+
+.ls_icon.medium.x-l {
+	background-position-x: -264px;
+}
+
+.ls_icon.medium.x-m {
+	background-position-x: -288px;
+}
+
+.ls_icon.medium.x-n {
+	background-position-x: -312px;
+}
+
+.ls_icon.medium.x-o {
+	background-position-x: -336px;
+}
+
+.ls_icon.medium.x-p {
+	background-position-x: -360px;
+}
+
+.ls_icon.medium.x-q {
+	background-position-x: -384px;
+}
+
+.ls_icon.medium.x-r {
+	background-position-x: -408px;
+}
+
+.ls_icon.medium.x-s {
+	background-position-x: -432px;
+}
+
+.ls_icon.medium.x-t {
+	background-position-x: -456px;
+}
+
+.ls_icon.medium.x-u {
+	background-position-x: -480px;
+}
+
+.ls_icon.medium.x-v {
+	background-position-x: -504px;
+}
+
+.ls_icon.medium.x-w {
+	background-position-x: -528px;
+}
+
+.ls_icon.medium.x-x {
+	background-position-x: -552px;
+}
+
+.ls_icon.medium.x-y {
+	background-position-x: -576px;
+}
+
+.ls_icon.medium.x-z {
+	background-position-x: -600px;
+}
+
+.ls_icon.medium.y-a {
+	background-position-y: 0px;
+}
+
+.ls_icon.medium.y-b {
+	background-position-y: -24px;
+}
+
+.ls_icon.medium.y-c {
+	background-position-y: -48px;
+}
+
+.ls_icon.medium.y-d {
+	background-position-y: -72px;
+}
+
+.ls_icon.medium.y-e {
+	background-position-y: -96px;
+}
+
+.ls_icon.medium.y-f {
+	background-position-y: -120px;
+}
+
+.ls_icon.medium.y-g {
+	background-position-y: -144px;
+}
+
+.ls_icon.medium.y-h {
+	background-position-y: -168px;
+}
+
+.ls_icon.medium.y-i {
+	background-position-y: -192px;
+}
+
+.ls_icon.medium.y-j {
+	background-position-y: -216px;
+}
+
+.ls_icon.medium.y-k {
+	background-position-y: -240px;
+}
+
+.ls_icon.medium.y-l {
+	background-position-y: -264px;
+}
+
+.ls_icon.medium.y-m {
+	background-position-y: -288px;
+}
+
+.ls_icon.medium.y-n {
+	background-position-y: -312px;
+}
+
+.ls_icon.medium.y-o {
+	background-position-y: -336px;
+}
+
+.ls_icon.medium.y-p {
+	background-position-y: -360px;
+}
+
+.ls_icon.medium.y-q {
+	background-position-y: -384px;
+}
+
+.ls_icon.medium.y-r {
+	background-position-y: -408px;
+}
+
+.ls_icon.medium.y-s {
+	background-position-y: -432px;
+}
+
+.ls_icon.medium.y-t {
+	background-position-y: -456px;
+}
+
+.ls_icon.medium.y-u {
+	background-position-y: -480px;
+}
+
+.ls_icon.medium.y-v {
+	background-position-y: -504px;
+}
+
+.ls_icon.medium.y-w {
+	background-position-y: -528px;
+}
+
+.ls_icon.medium.y-x {
+	background-position-y: -552px;
+}
+
+.ls_icon.medium.y-y {
+	background-position-y: -576px;
+}
+
+.ls_icon.medium.y-z {
+	background-position-y: -600px;
+}
+
+.ls_icon.small {
+	width: 16px !important;
+	height: 16px !important;
+	background-image: url("../images/icons/iconmap16.png") !important;
+	background-size: unset !important;
+	background-color: transparent;
+}
+
+.ls_icon.small.x-a {
+	background-position-x: 0px;
+}
+
+.ls_icon.small.x-b {
+	background-position-x: -16px;
+}
+
+.ls_icon.small.x-c {
+	background-position-x: -32px;
+}
+
+.ls_icon.small.x-d {
+	background-position-x: -48px;
+}
+
+.ls_icon.small.x-e {
+	background-position-x: -64px;
+}
+
+.ls_icon.small.x-f {
+	background-position-x: -80px;
+}
+
+.ls_icon.small.x-g {
+	background-position-x: -96px;
+}
+
+.ls_icon.small.x-h {
+	background-position-x: -112px;
+}
+
+.ls_icon.small.x-i {
+	background-position-x: -128px;
+}
+
+.ls_icon.small.x-j {
+	background-position-x: -144px;
+}
+
+.ls_icon.small.x-k {
+	background-position-x: -160px;
+}
+
+.ls_icon.small.x-l {
+	background-position-x: -176px;
+}
+
+.ls_icon.small.x-m {
+	background-position-x: -192px;
+}
+
+.ls_icon.small.x-n {
+	background-position-x: -208px;
+}
+
+.ls_icon.small.x-o {
+	background-position-x: -224px;
+}
+
+.ls_icon.small.x-p {
+	background-position-x: -240px;
+}
+
+.ls_icon.small.x-q {
+	background-position-x: -256px;
+}
+
+.ls_icon.small.x-r {
+	background-position-x: -272px;
+}
+
+.ls_icon.small.x-s {
+	background-position-x: -288px;
+}
+
+.ls_icon.small.x-t {
+	background-position-x: -304px;
+}
+
+.ls_icon.small.x-u {
+	background-position-x: -320px;
+}
+
+.ls_icon.small.x-v {
+	background-position-x: -336px;
+}
+
+.ls_icon.small.x-w {
+	background-position-x: -352px;
+}
+
+.ls_icon.small.x-x {
+	background-position-x: -368px;
+}
+
+.ls_icon.small.x-y {
+	background-position-x: -384px;
+}
+
+.ls_icon.small.x-z {
+	background-position-x: -400px;
+}
+
+.ls_icon.small.y-a {
+	background-position-y: 0px;
+}
+
+.ls_icon.small.y-b {
+	background-position-y: -16px;
+}
+
+.ls_icon.small.y-c {
+	background-position-y: -32px;
+}
+
+.ls_icon.small.y-d {
+	background-position-y: -48px;
+}
+
+.ls_icon.small.y-e {
+	background-position-y: -64px;
+}
+
+.ls_icon.small.y-f {
+	background-position-y: -80px;
+}
+
+.ls_icon.small.y-g {
+	background-position-y: -96px;
+}
+
+.ls_icon.small.y-h {
+	background-position-y: -112px;
+}
+
+.ls_icon.small.y-i {
+	background-position-y: -128px;
+}
+
+.ls_icon.small.y-j {
+	background-position-y: -144px;
+}
+
+.ls_icon.small.y-k {
+	background-position-y: -160px;
+}
+
+.ls_icon.small.y-l {
+	background-position-y: -176px;
+}
+
+.ls_icon.small.y-m {
+	background-position-y: -192px;
+}
+
+.ls_icon.small.y-n {
+	background-position-y: -208px;
+}
+
+.ls_icon.small.y-o {
+	background-position-y: -224px;
+}
+
+.ls_icon.small.y-p {
+	background-position-y: -240px;
+}
+
+.ls_icon.small.y-q {
+	background-position-y: -256px;
+}
+
+.ls_icon.small.y-r {
+	background-position-y: -272px;
+}
+
+.ls_icon.small.y-s {
+	background-position-y: -288px;
+}
+
+.ls_icon.small.y-t {
+	background-position-y: -304px;
+}
+
+.ls_icon.small.y-u {
+	background-position-y: -320px;
+}
+
+.ls_icon.small.y-v {
+	background-position-y: -336px;
+}
+
+.ls_icon.small.y-w {
+	background-position-y: -352px;
+}
+
+.ls_icon.small.y-x {
+	background-position-y: -368px;
+}
+
+.ls_icon.small.y-y {
+	background-position-y: -384px;
+}
+
+.ls_icon.small.y-z {
+	background-position-y: -400px;
+}
+
+
+.ls_icon.button {
+	cursor: pointer;
+}

@@ -1,0 +1,7 @@
+### Content explanation for iconmap16 ###
+### Project "theme5 (merconis)" ###
+
+x-a, y-a: arrow right (accordion closed)
+x-b, y-a: arrow down (accordion closed)
+x-c, y-a: arrow left (same style as the accordion arrows, although currently not used for accordion)
+x-d, y-a: arrow up (same style as the accordion arrows, although currently not used for accordion)

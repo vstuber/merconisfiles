@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+#mbCenter * {
+	box-sizing: content-box;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+/* 
+ * Basic styles that normally would be set in contao's layout.css (layout builder)
+ * and that we include here because they are somehow essential
+ */
+/**
+ * Clear floats
+ */
+.block {
+	overflow:hidden;
+}
+.clear,#clear,.clearFloat {
+	height:0.1px;
+	font-size:0.1px;
+	line-height:0.1px;
+	clear:both;
+}
+
+/**
+ * Hide invisible elements
+ */
+.invisible {
+	border:0;
+	clip:rect(0 0 0 0);
+	height:1px;
+	margin:-1px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	width:1px;
+}
+
+.error {
+	color: #AA0000;
+}
+
+.success {
+	color: #00AA00;
+}
+
+
+
+/*
+ * Some styles just to make the different layout areas better distinguishable
+ */
+body {
+	background-color: #CCCCCC;
+	padding: 10px;
+}
+
+#header,
+#merconisNavigation,
+#main,
+#footer {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	padding: 20px;
+}
+
+.button {
+	display: inline-block;
+	border: 1px solid #000000;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+
+/*
+ * Position layout areas and make the basic layout a little responsive
+ */
+#wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#header {
+	margin-bottom: 2%;
+}
+
+#header:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#merconisNavigation {
+	float: left;
+	width: 26%;
+	margin-bottom: 2%;
+}
+
+#main {
+	float: right;
+	width: 72%;
+	margin-bottom: 2%;
+}
+
+#footer {
+	clear: both;
+}
+
+.shopLogo {
+	border: 1px solid #000000;
+	float: left;
+	font-size: 30px;
+	margin-right: 2%;
+	padding: 30px;
+	text-align: center;
+	width: 200px;
+}
+
+.ls_languageSelector {
+	float: right;
+	margin-left: 2%;
+}
+
+#secondNavigation {
+	float: right;
+	text-align: right;
+}
+
+#secondNavigation ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.template_cart_mini {
+	float: left;
+}
+
+.template_productSearch_default {
+	float: left;
+	margin-bottom: 20px;
+	position: relative;
+
+	margin-left: 10%;
+	height: 25px;
+	font-size: 0.85rem;
+	padding-top: 5px;
+	top: 1px;
+}
+
+@media only screen and (max-width: 665px) {
+	#merconisNavigation,
+	#main {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.shopLogo {
+		margin-bottom: 10px;	
+	}
+}

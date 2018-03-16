@@ -1,0 +1,122 @@
+[data-merconis-component="product-management-api-test"] .widget {
+	padding: 5px;
+}
+
+[data-merconis-component="product-management-api-test"] .widget:nth-child(odd) {
+	background-color: #EEEEEE;
+}
+
+[data-merconis-component="product-management-api-test"] .widget label {
+	width: 350px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+[data-merconis-component="product-management-api-test"] .widget input {
+	margin-left: 10px;
+}
+
+[data-merconis-component="product-management-api-test"] button.addRow,
+[data-merconis-component="product-management-api-test"] input.submit {
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+[data-merconis-component="product-management-api-test"] .requestOutput,
+[data-merconis-component="product-management-api-test"] .responseOutput {
+	border: 1px solid #000000;
+	margin-top: 10px;
+}
+
+[data-merconis-component="product-management-api-test"] .dataInput {
+	border: 1px solid #000000;
+	margin-top: 80px;
+	position: relative;
+}
+
+[data-merconis-component="product-management-api-test"] .authFields {
+	position: absolute;
+	top: -40px;
+	right: 0px;
+}
+
+[data-merconis-component="product-management-api-test"] .authFields label {
+	margin-left: 20px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+[data-merconis-component="product-management-api-test"] form {
+	margin: 0;
+}
+
+[data-merconis-component="product-management-api-test"] .requestOutput .output,
+[data-merconis-component="product-management-api-test"] .responseOutput .output {
+	padding: 10px;
+	white-space: pre;
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+[data-merconis-component="product-management-api-test"] .dataInput h2,
+[data-merconis-component="product-management-api-test"] .requestOutput h2,
+[data-merconis-component="product-management-api-test"] .responseOutput h2 {
+	margin: 0;
+	padding: 5px;
+	padding-left: 10px;
+	border-bottom: 1px solid #000000;
+	background-color: #EEEEEE;
+	color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+[data-merconis-component="product-management-api-test"] .buttonContainer {
+	margin: 0;
+	padding: 5px;
+	padding-left: 10px;
+	border-top: 1px solid #000000;
+	background-color: #EEEEEE;
+	color: #000000;
+}
+
+[data-merconis-component="product-management-api-test"] .buttonContainer button {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 5px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+[data-merconis-component="product-management-api-test"] .productDataField {
+	max-height: 400px;
+	overflow-y: scroll;
+	margin-bottom: 10px;
+}
+
+[data-merconis-component="product-management-api-test"] .api-inspector-navigation ul li {
+	margin-bottom: 5px;
+}
+
+[data-merconis-component="product-management-api-test"] .api-inspector-navigation a.resourceLink {
+	text-decoration: none;
+	font-size: 14px;
+	color: #000000;
+}
+
+[data-merconis-component="product-management-api-test"] .api-inspector-navigation a.resourceLink:hover {
+	text-decoration: underline;
+}
+
+[data-merconis-component="product-management-api-test"] .api-inspector-navigation a.resourceLink.selected {
+	font-weight: bold;
+}
+
+[data-merconis-component="product-management-api-test"] .api-inspector-navigation {
+	border-bottom: 1px dashed #000000;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}

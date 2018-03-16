@@ -1,0 +1,33 @@
+<?
+	Object.each(
+		arg.__models.attributesAndValues.readData('obj_allAttributeValues'),
+		function(obj_attribute) {
+			?>
+			<div class="attributeBox">
+				<h2><?= obj_attribute.attributeTitle =?></h2>
+				<div class="values">
+				<?
+				Object.each(obj_attribute.values, function(obj_value) {
+					?>
+					<div
+						data-lsjs-element="btn_valueSelect"
+						class="value"
+						data-lsjs-value-attributeId="<?= obj_attribute.attributeID =?>"
+						data-lsjs-value-valueId="<?= obj_value.valueID =?>"
+						data-lsjs-bindToModel="attributesAndValues"
+						data-lsjs-bindToPath=""
+						data-lsjs-bindToProperty="data-lsjs-class"
+						data-lsjs-bindToTranslation="bindingTranslation_selectedValueIdToSelectionClass"
+					>
+						<span><?= obj_value.valueTitle =?></span>
+						<span class="closeButton">X</span>
+					</div>
+					<?
+				});
+				?>
+				</div>
+			</div>
+			<?
+		}
+	);
+?>
